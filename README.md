@@ -1,14 +1,14 @@
 # autoCode
 
-目录结构<br/>
->com.h2h<br/>
->>main<br/>
->>>RunEntrance.java--启动类<br/>
->>>CodeMeachine.java--主要类<br/>
->>model<br/>
->>>FieldBean.java--查询数据库字段属性等的Bean类<br/>
->>tool<br/>
->>>data<br/>
->>>db--数据库连接与配置<br/>
->>>freeMaker--FreeMaker读取模板与生成操作类<br/>
->>>util--表明大小写 _ 转换类<br/>
+##目录结构
+├ _com.h2h---------包名
+ ├ _main---------启动类与主要类
+ │  │ RunEntrance.java
+ │  └ CodeMeachine.java
+ ├ _model---------Bean类存放目录
+ │  └ FieldBean.java
+ ├ _tool---------工具类存放目录
+  ├ _data---------
+  ├ _db---------数据库连接与配置
+  ├ _freeMaker---------FreeMaker读取模板与生成操作类
+  ├ _util---------表明大小写 _ 转换类
